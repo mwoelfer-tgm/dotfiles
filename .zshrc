@@ -112,8 +112,8 @@ alias no_u='sudo $(fc -ln -1)'
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
-export EDITOR='nano'
-export SUDOEDITOR='nano'
+export EDITOR='vim'
+export SUDOEDITOR='vim'
 # else
 #   export EDITOR='vim'
 # fi
@@ -130,10 +130,9 @@ export SUDOEDITOR='nano'
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="nano ~/.zshrc"
+alias zshconfig="vim ~/.zshrc"
 # alias ohmyzsh="nano ~/.oh-my-zsh"
-alias open="xdg-open"
-alias i3c="nano ~/.config/i3/config"
+alias i3c="vim ~/.config/i3/config"
 alias i3cstatus="nano ~/.config/i3status/config"
 # add arch splashscreen
 neofetch
